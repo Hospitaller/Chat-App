@@ -4,6 +4,8 @@
   background-color: #1d232a;
   font-family: 'Roboto', sans-serif;
   color: #fff;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(2%, rgba(0, 0, 0, 0)), color-stop(95%, rgba(0, 0, 0, 0.02)), to(#101010));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 2%, rgba(0, 0, 0, 0.02) 95%, #101010 100%);
 }
 .b-sidebar__menu {
   color: red;
@@ -46,6 +48,57 @@
   width: 100%;
   height: 1000px;
   background-image: linear-gradient(-67deg, #1d232a 0%, #282f37 100%);
+}
+.b-inbox__head {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.b-inbox__head_margin {
+  margin-top: 15px;
+}
+.b-inbox__head__title {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.b-inbox__head__addFriend_margin {
+  margin-top: 12px;
+}
+.b-inbox__group_margin {
+  margin-left: 30px;
+  margin-top: 35px;
+}
+.b-inbox__group__unit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  justify-items: center;
+  font-family: 'Roboto', sans-serif;
+  color: #a0a4a7;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 3;
+}
+.b-inbox__group__unit > p {
+  margin: 0;
+}
+.b-inbox__group__unit > span {
+  color: #fff;
+  font-size: 11px;
+  padding-top: 3px;
 }
 .b-contacts {
   width: 100%;

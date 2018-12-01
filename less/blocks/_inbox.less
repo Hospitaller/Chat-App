@@ -2,4 +2,51 @@
     width: 100%;
     height: 1000px;
     background-image: linear-gradient(-67deg, #1d232a 0%, #282f37 100%);
+    &__head {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        &_margin {
+            margin-top: 15px;
+        }
+        
+        &__title {
+            font-family: @mainFont;
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 20px;
+            
+        }
+        &__addFriend {
+            &_margin {
+                margin-top: 12px;
+            }
+        }
+    }
+    &__group {
+        &_margin {
+            margin-left: 30px;
+            margin-top: 35px;
+        }
+        &__unit {
+            display: flex;
+            justify-content: space-between;
+            justify-items: center;
+            font-family: @mainFont;
+            color: #a0a4a7;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 3;
+            >p {
+                margin: 0;
+            }
+            >span {
+                color: #fff;
+                font-size: 11px;
+                padding-top: 3px;
+            }
+        }
+    }
 }
