@@ -1,0 +1,76 @@
+.b-sidebar {
+  width: 100%;
+  height: 1000px;
+  background-color: #1d232a;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+.b-sidebar__menu {
+  color: red;
+}
+.b-sidebar__menu_margin {
+  margin-left: 50%;
+  margin-top: 34px;
+  -webkit-transform: translateX(-8px);
+          transform: translateX(-8px);
+}
+.b-sidebar__messenger {
+  height: 100%;
+  min-height: 310px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  justify-items: center;
+}
+.b-sidebar__messenger_position {
+  margin-top: 58px;
+}
+.b-sidebar__messenger__iconMessenger {
+  width: 20px;
+  height: 20px;
+}
+.b-sidebar__messenger__iconMessenger_center {
+  text-align: center;
+}
+.b-sidebar__messenger__iconMessenger_m-bottom {
+  margin-bottom: 30px;
+}
+.b-inbox {
+  width: 100%;
+  height: 1000px;
+  background-image: linear-gradient(-67deg, #1d232a 0%, #282f37 100%);
+}
+.b-contacts {
+  width: 100%;
+  height: 1000px;
+  background-color: #242a31;
+  background-image: linear-gradient(-67deg, #242a31 0%, #2d343c 100%);
+}
+.b-mainChatroom {
+  width: 100%;
+  height: 1000px;
+  background-color: #aab0b9;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#eceef2), to(rgba(236, 238, 242, 0)));
+  background-image: linear-gradient(to bottom, #eceef2 0%, rgba(236, 238, 242, 0) 100%);
+}
+.b-profile {
+  width: 100%;
+  height: 1000px;
+  background: #fff;
+}
+body {
+  background: grey;
+}
+#App {
+  margin: 20px auto;
+}
+.container {
+  padding: 0;
+}
